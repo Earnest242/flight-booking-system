@@ -36,51 +36,15 @@ export const navigationList = [
     ],
   },
   {
-    name: "Customers",
+    name: "Bookings",
     icon: UserIcon,
-    linkTo: "/customers",
+    linkTo: "/bookings",
     children: [
       {
-        name: "Customer List",
+        name: "Bookings List",
       },
       {
-        name: "Add Customer",
-      },
-      {
-        name: "Customer Groups",
-      },
-    ],
-  },
-  {
-    name: "Orders",
-    icon: OrdersIcon,
-    linkTo: "/orders",
-  },
-  {
-    name: "Analytics",
-    icon: AnalyticsIcon,
-    linkTo: "/analytics",
-  },
-  {
-    name: "Stores",
-    icon: StoresIcon,
-    linkTo: "/stores",
-  },
-  {
-    name: "Billing",
-    icon: BillingIcon,
-    linkTo: "/billing",
-  },
-  {
-    name: "System",
-    icon: SystemIcon,
-    linkTo: "/system",
-    children: [
-      {
-        name: "Settings",
-      },
-      {
-        name: "Integrations",
+        name: "Add Bookings",
       },
     ],
   },
